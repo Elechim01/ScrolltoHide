@@ -13,6 +13,7 @@
 		C498622226B49F5400B181FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C498621226B49F5300B181FE /* ContentView.swift */; };
 		C498622326B49F5400B181FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C498621326B49F5400B181FE /* Assets.xcassets */; };
 		C498622426B49F5400B181FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C498621326B49F5400B181FE /* Assets.xcassets */; };
+		C498622F26B49F8D00B181FE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C498622E26B49F8D00B181FE /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C498621326B49F5400B181FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C498621826B49F5400B181FE /* ScrolltoHide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrolltoHide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C498621E26B49F5400B181FE /* ScrolltoHide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrolltoHide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C498622E26B49F8D00B181FE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		C498621026B49F5300B181FE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C498622D26B49F8000B181FE /* View */,
 				C498621126B49F5300B181FE /* ScrolltoHideApp.swift */,
 				C498621226B49F5300B181FE /* ContentView.swift */,
 				C498621326B49F5400B181FE /* Assets.xcassets */,
@@ -66,6 +69,14 @@
 				C498621E26B49F5400B181FE /* ScrolltoHide.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C498622D26B49F8000B181FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C498622E26B49F8D00B181FE /* HomeView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C498622F26B49F8D00B181FE /* HomeView.swift in Sources */,
 				C498622126B49F5400B181FE /* ContentView.swift in Sources */,
 				C498621F26B49F5400B181FE /* ScrolltoHideApp.swift in Sources */,
 			);
